@@ -5,7 +5,7 @@ const loadProducts = () => {
 };
 
 
-// show all product in UI 
+// show all product 
 const showProducts = (products) => {
   const allProducts = products.map((pd) => pd);
   for (const product of allProducts) {
