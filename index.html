@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Demo Store</title>
+  <script src="https://kit.fontawesome.com/d1e3185a3e.js"></script>
   <link rel="stylesheet" href="./css/style.css" />
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -24,16 +25,17 @@
     <div class="search-field">
       <div class="search-box">
         <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
+        <button type="button" class="btn search-button" data-toggle="button" aria-pressed="false" autocomplete="off"
+          id="search-btn" onclick="loadProducts()">
           Search
         </button>
+
       </div>
     </div>
 
-    <div class="row">
+    <div class="row row-margin">
       <div class="col-md-9 col-lg-9 col-sm-7">
-        <div id="all-products" class="">
+        <div id="all-products" class="all-products-height">
 
         </div>
       </div>
@@ -82,7 +84,7 @@
             </tbody>
           </table>
           <div class="parces text-center">
-            <button class="btn btn-primary text-center">Buy Now</button>
+            <button id="btn-color" class="btn text-center">Buy Now</button>
           </div>
         </div>
       </div>
